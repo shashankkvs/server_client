@@ -39,7 +39,7 @@ int main()
 	int cpid=fork();
 
 	if(cpid==0){
-	printf("\n\n************CONNECTION ESTABLISHED*************\n\n");
+	printf("\n\n\n************CONNECTION ESTABLISHED*************\n\n");
 	
 	char snd[256]={'\0'},rcv[256]={'\0'};
 	while(1){
